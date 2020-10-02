@@ -1,0 +1,18 @@
+.place{
+    width: 984px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, minmax(min-content,max-content));
+    margin-bottom: 80px;
+}
+
+.place:last-child{
+margin-bottom: 0;
+}
+.place__grid{
+margin: 0;
+padding: 0;
+}
