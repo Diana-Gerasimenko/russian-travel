@@ -13,6 +13,6 @@
 * Flexbox-верстка;
 * Позиционирование;
 * CSS Grid.
-
+### Ссылка на сайт: https://diana-gerasimenko.github.io/russian-travel/index.html
 
 
