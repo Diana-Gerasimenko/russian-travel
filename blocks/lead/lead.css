@@ -3,7 +3,6 @@ display: flex;
 flex-direction: column;
 padding: 0;
 margin: 0;
-width: calc(100% - 2*148px);
 max-width: 984px;
 width: 100%;
 margin-left: 148px;
