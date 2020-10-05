@@ -2,8 +2,10 @@
     margin-top:28px;
     display: flex;
     max-height: 52px;
+    align-items: center;
     justify-content: space-between;
-    width: calc(100% - 2*48px);
+    padding-right: 48px;
+    padding-left: 48px;
 }
     @media screen and (max-width: 1023px){
     .header{
@@ -14,6 +16,7 @@
     @media screen and (max-width: 767px){
     .header{
         margin-top: 16px;
-        width: calc(100% - 2*8px);
+        padding-right: 8px;
+        padding-left: 8px;
     }
     }

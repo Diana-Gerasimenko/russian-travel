@@ -24,11 +24,11 @@ margin-right: 40px;
     }
     @media screen and (max-width: 767px) {
     .place__image{
-    max-width: 320px;
+    max-width:320px;
     width: 100%;
-    max-height: 320px;
+    height: 320px;
     margin-top: 32px;
     margin-bottom: 32px;
-    margin-right: 0;
+    padding: 0;
     }
     }

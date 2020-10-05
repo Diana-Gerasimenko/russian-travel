@@ -1,11 +1,5 @@
 .intro{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 148px;
-    padding-right: 442px;
+padding-left: 148px;
 }
 @media screen and (max-width: 1024px) {
     .intro {

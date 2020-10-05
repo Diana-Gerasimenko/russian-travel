@@ -2,12 +2,13 @@
     font-weight: normal;
     font-size: 30px;
     line-height: 36px;
-    padding: 0;
-    padding-top: 32px;
+    margin: 0 auto;
+    margin-top: 32px;
     padding-left: 0;
+    justify-content: center;
+    max-width: 640px;
     width: calc(100% - 2*172px);
     color: #ffffff;
-    margin: 0 auto;
     text-align: center;
     text-rendering: optimizeLegibility;
 }
