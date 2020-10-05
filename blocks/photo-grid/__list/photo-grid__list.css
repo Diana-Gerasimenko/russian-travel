@@ -6,7 +6,6 @@
     margin: auto;
     margin-top: 92px;
     padding: 0;
-    width: 100%;
     width: calc(100% - 2*48px);
     list-style: none;
     }
@@ -20,7 +19,6 @@
     }
         @media screen and (max-width: 1023px) {
         .photo-grid__list{
-        width: 100%;
         width: calc(100% - 2*24px);
         margin-top: 88px;
         grid-template-columns: repeat(2, minmax(max-content,min-content));
