@@ -8,3 +8,17 @@ line-height: 18px;
 color: #FFFFFF;
 margin-right: 18px;
 }
+.footer__link:hover{
+opacity: 0.8;
+}
+@media screen and (max-width: 767px) {
+    .footer__link{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0;
+    margin-top: 32px;
+    }
+    }

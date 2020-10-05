@@ -1,11 +1,20 @@
 .header{
-    padding-top:28px;
+    margin-top:28px;
     display: flex;
-    position: relative;
-    max-width: 1184px;
+    width: 100%;
     max-height: 52px;
-    flex-direction: column;
     justify-content: space-between;
-    padding-top: 48px;
-    padding-right: 48px;
+    width: calc(100% - 2*48px);
 }
+    @media screen and (max-width: 1023px){
+    .header{
+        width: calc(100% - 2*24px);
+        margin-top: 28px;
+    }
+    }
+    @media screen and (max-width: 767px){
+    .header{
+        margin-top: 16px;
+        width: calc(100% - 2*8px);
+    }
+    }

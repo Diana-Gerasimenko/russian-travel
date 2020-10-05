@@ -1,0 +1,10 @@
+.cover{
+margin-top: 92px;
+width: 100%;
+margin-left: 48px;
+margin-right: 48px;
+position: relative;
+display: flex;
+flex-direction: column;
+}
+
