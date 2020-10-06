@@ -2,15 +2,15 @@
 list-style: none;
 max-width: 690px;
 width: 100%;
-font-family: Inter;
 font-style: normal;
 font-weight: bold;
 font-size: 12px;
 line-height: 18px;
-color: #FFFFFF;
 padding: 0;
 margin: 0;
 padding-top: 32px;
+color: #ffffff;
+font-family: 'Inter';
 }
 @media screen and (max-width: 1279px) {
     .intro__list{

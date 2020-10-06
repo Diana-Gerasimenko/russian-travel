@@ -10,6 +10,7 @@
     width: calc(100% - 2*172px);
     color: #ffffff;
     text-align: center;
+    font-family: 'Inter';
     text-rendering: optimizeLegibility;
 }
 @media screen and (max-width: 1279px) {

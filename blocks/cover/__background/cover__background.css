@@ -7,33 +7,39 @@
     display: flex;
     flex-direction: column;
     color: white;
-    opacity: 0.8;
-    object-fit: contain;
+    object-fit: cover;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
-.cover__background:hover{
-  opacity: 0.3;
+.cover__background::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-color: #2F2A2C;
+  opacity: 0.3;
+  z-index: 1;
+  transition: opacity linear;
+}
+.cover__background:hover::before{
+  opacity: 0.8;
 } 
 @media screen and (max-width: 1279px) {
   .cover__background{
   min-height:640px;
-  object-fit: cover;
   }
   }
 @media screen and (max-width: 1023px) {
   .cover__background{
   width: 100%;
-  object-fit: cover;
   }
   }
 @media screen and (max-width: 767px) {
   .cover__background{
-  padding-left:0;
-  margin:0;
-  min-height:200px;
-  max-width:320px;
-  object-fit: cover;
+    min-height:200px;
+    max-width:320px;
   }
   }

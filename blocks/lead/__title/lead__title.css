@@ -25,10 +25,8 @@ text-rendering: optimizeLegibility;
 }
     @media screen and (max-width: 767px) {
     .lead__title {
-    margin: 0 auto;
     font-size: 40px;
     line-height: 44px;
-    text-align: center;
     margin-top: 106px;
     }
     }
