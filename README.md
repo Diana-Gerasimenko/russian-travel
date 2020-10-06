@@ -12,7 +12,8 @@
 * Адаптивная верстка;
 * Flexbox-верстка;
 * Позиционирование;
-* CSS Grid.
+* CSS Grid;
+* Сылки ркагируют при наведении курсора мыши.
 ### Ссылка на сайт: https://diana-gerasimenko.github.io/russian-travel/
 
 
