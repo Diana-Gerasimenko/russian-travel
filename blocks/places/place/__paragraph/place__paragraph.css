@@ -6,35 +6,20 @@ font-weight: normal;
 font-size: 18px;
 line-height: 163%;
 color: #FFFFFF;
-max-width: 484px;
-width: 100%;
 padding: 0;
-margin-top: 48px;
 }
-.place__second-paragraph{
-margin: 0;
-padding: 0;
-margin-top: 24px;
-}
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1023px) {
     .place__paragraph{
-    max-width: 456px;
-    width: 100%;
+        font-size: 16px;
+        line-height: 163%;
     }
 }
-    @media screen and (max-width: 1023px) {
+
+@media screen and (max-width: 767px) {
     .place__paragraph{
-    max-width: 352px;
-    width: 100%;
-    font-size: 16px;
+        font-size: 16px;
+        line-height: 163%;
+        margin: 0 auto;
+        width: calc(100% - 2*16px);
     }
-    }
-    @media screen and (max-width: 767px) {
-    .place__paragraph{
-    max-width: 288px;
-    width: 100%;
-    font-size: 16px;
-    margin-left:16px;
-    margin-top: 0;
-    }
-    }
+}
