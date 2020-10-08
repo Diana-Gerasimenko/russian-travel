@@ -4,7 +4,7 @@ flex-direction: column;
 padding: 0;
 margin: 0 auto;
 margin-top: 136px;
-width: 100%;
+max-width: calc(100% - 100px*2);
 }
 @media screen and (max-width: 1279px) {
     .lead{
