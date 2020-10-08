@@ -1,7 +1,5 @@
 .place__link{
 max-width: 456px;
-width: 100%;
-font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -9,6 +7,7 @@ line-height: 22px;
 text-decoration-line: underline;
 color: #FFFFFF;
 margin-top: 12px;  
+cursor: pointer;
 }
 .place__link:hover{
 opacity: 0.8;

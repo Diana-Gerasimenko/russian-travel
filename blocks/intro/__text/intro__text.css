@@ -1,6 +1,5 @@
 .intro__text{
 max-width: 690px;
-width: 100%;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -9,23 +8,14 @@ margin: 0;
 padding: 0;
 padding-top: 40px;
 color: #ffffff;
-font-family: 'Inter';
 }
-@media screen and (max-width: 1279px) {
-    .intro__text{
-    max-width: 690px;
-    width: 100%;
-    }
-    }
-    @media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .intro__text{
     max-width: 720px;
-    width: 100%;
     }
-    }
-    @media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 767px) {
     .intro__text{
-    max-width: 288px;
     width: 100%;
     }
-    }
+}
