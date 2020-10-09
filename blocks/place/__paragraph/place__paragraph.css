@@ -17,5 +17,6 @@
         .place__paragraph{
             margin: 0 auto;
             width: calc(100% - 16px * 2);
+            margin-bottom: 24px;
         }
     }

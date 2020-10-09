@@ -1,6 +1,5 @@
 .place{
-    width: 984px;
-    max-width: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     margin-bottom: 80px;
@@ -19,11 +18,13 @@
     .place {
         grid-template-columns: 340px 1fr;
         gap: 48px 28px;
+        margin-bottom: 72px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .place {
         grid-template-columns: 1fr;
+        margin-bottom:48px;
     }
 }
