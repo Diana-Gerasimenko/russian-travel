@@ -2,17 +2,19 @@
     background-image:url(../../../images/sprint-3-images/cover-trains.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
     display: flex;
     flex-direction: column;
+    position: relative;
     color: white;
     object-fit: cover;
-    width:100%;
     min-height:740px;
+    width:100%;
     margin: 0;
     padding: 0;
     text-decoration: none;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 .cover__background::before{
   content: '';
